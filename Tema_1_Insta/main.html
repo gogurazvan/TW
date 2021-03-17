@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="insta.css">
+    <title>Instagram</title>
+    <link rel="shortcut icon" type="image/x-icon" href="b.png" />
+</head>
+<body>
+    <header>
+        <div id="head">
+            <img class ="logo" src="logo.png">
+            <input class="bar" type="text" placeholder="Search">
+        </div>
+    </header>
+    <div id="content">
+        <div class="navi">
+            <div class="copax" id="iphone3" onclick="boldin1()">
+                POSTS
+            </div>
+            <div onclick="boldin2()" id="iphone4">
+                REELS
+            </div>
+            <div onclick="boldin3()" id="iphone4G">
+                IGTV
+            </div>
+            <div class="copax2" onclick="boldin4()" id="iphone6">
+                TAGGED
+            </div>
+        </div>
+        <script>
+            function boldin1(){
+                document.getElementById("iphone3").style.color = "black";
+                document.getElementById("iphone4").style.color = "#8e8e8e";
+                document.getElementById("iphone4G").style.color = "#8e8e8e";
+                document.getElementById("iphone6").style.color = "#8e8e8e";
+            }
+            function boldin2(){
+                document.getElementById("iphone3").style.color = "#8e8e8e";
+                document.getElementById("iphone4").style.color = "black";
+                document.getElementById("iphone4G").style.color = "#8e8e8e";
+                document.getElementById("iphone6").style.color = "#8e8e8e";
+            }function boldin3(){
+                document.getElementById("iphone3").style.color = "#8e8e8e";
+                document.getElementById("iphone4").style.color = "#8e8e8e";
+                document.getElementById("iphone4G").style.color = "black";
+                document.getElementById("iphone6").style.color = "#8e8e8e";
+            }function boldin4(){
+                document.getElementById("iphone3").style.color = "#8e8e8e";
+                document.getElementById("iphone4").style.color = "#8e8e8e";
+                document.getElementById("iphone4G").style.color = "#8e8e8e";
+                document.getElementById("iphone6").style.color = "black";
+            }
+        </script>
+
+        <div id="grid">
+            <img class="base-form" src="G.jpg">
+            <img class="base-form" src="G.jpg">
+            <img class="base-form" src="G.jpg">
+            <img class="base-form" src="G.jpg">
+            <img class="base-form" src="G.jpg">
+            <img class="base-form" src="G.jpg">
+        </div>
+    </div>
+
+</body>
+
+</html>
